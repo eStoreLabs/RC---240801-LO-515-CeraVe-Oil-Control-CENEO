@@ -262,12 +262,12 @@
 
 #es-cerave.es-cerave .es-feature__left {
   text-align: center;
-  max-width: 45%;
+  max-width: 90%;
 }
 
 #es-cerave.es-cerave .es-feature__right {
   text-align: center;
-  max-width: 45%;
+  max-width: 90%;
 }
 
 #es-cerave.es-cerave .es-feature__research {
@@ -327,22 +327,6 @@
 
 #es-cerave.es-cerave .es-benefits__image {
   overflow: hidden;
-}
-
-#es-cerave.es-cerave .es-benefits__solve:hover .es-benefits__img {
-  transform: scale(1.2);
-}
-
-#es-cerave.es-cerave .es-benefits__problem:hover .es-benefits__img {
-  transform: scale(1.2);
-}
-
-#es-cerave.es-cerave .es-benefits__ceramid:hover .es-benefits__img {
-  transform: scale(1.2);
-}
-
-#es-cerave.es-cerave .es-benefits__mve:hover .es-benefits__img {
-  transform: scale(1.2);
 }
 
 #es-cerave.es-cerave .es-benefits__title {
@@ -685,6 +669,18 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  #es-cerave.es-cerave .es-feature__left {
+    text-align: center;
+    max-width: 45%;
+  }
+
+  #es-cerave.es-cerave .es-feature__right {
+    text-align: center;
+    max-width: 45%;
+  }
+}
+
 @media screen and (min-width: 870px) {
   #es-cerave.es-cerave .es-kv {
     position: relative;
@@ -968,6 +964,22 @@
     min-height: 400px;
     padding-left: 475px;
     padding-top: 100px;
+  }
+
+  #es-cerave.es-cerave .es-benefits__solve:hover .es-benefits__img {
+    transform: scale(1.2);
+  }
+
+  #es-cerave.es-cerave .es-benefits__problem:hover .es-benefits__img {
+    transform: scale(1.2);
+  }
+
+  #es-cerave.es-cerave .es-benefits__ceramid:hover .es-benefits__img {
+    transform: scale(1.2);
+  }
+
+  #es-cerave.es-cerave .es-benefits__mve:hover .es-benefits__img {
+    transform: scale(1.2);
   }
 }
 @-webkit-keyframes appear {
